@@ -6,13 +6,9 @@ https://docs.python.org/3/howto/logging.html
 
 nivel de uso y cuando usarlo
 
-DEBUG - Detailed information, typically of interest only when diagnosing problems.
-
-INFO - Confirmation that things are working as expected.
-
-WARNING - An indication that something unexpected happened, or indicative of some problem in the near future (e.g. ‘disk space low’). The software is still working as expected.
-
-ERROR - Due to a more serious problem, the software has not been able to perform some function.
-
-CRITICAL - A serious error, indicating that the program itself may be unable to continue running.
+DEBUG - muestra informacion muy detallada y solo se recomienda cuando esta en desarrollo
+INFO - muestra informacion de como funciona normalmente la aplicacion, normalmente este nivel esta desactivado
+WARNING - por defecto esta activado desde este nivel en adelante, muestra los mensajes de advertencia
+ERROR - muestras los mensajes de error que puede estar afectando en una funcion del codigo
+CRITICAL - muestra errores criticos que afecta el sistema
 

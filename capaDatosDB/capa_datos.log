@@ -1,0 +1,325 @@
+05/07/2024 11:55:01 AM - DEBUG - [logger_base.py:15] - mensaje a nivel de DEBUG
+05/07/2024 11:55:01 AM - INFO - [logger_base.py:16] - mensaje a nivel de info
+05/07/2024 11:55:01 AM - WARNING - [logger_base.py:17] - mensaje a nivel de wargning
+05/07/2024 11:55:01 AM - ERROR - [logger_base.py:18] - mensaje a nivel de error
+05/07/2024 11:55:01 AM - CRITICAL - [logger_base.py:19] - mensaje a nivel de critical
+05/07/2024 12:15:25 PM - DEBUG - [persona.py:53] - 
+            ID_Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez
+            Email: jperez@mail
+        
+05/07/2024 12:18:50 PM - DEBUG - [persona.py:53] - 
+            ID_Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail
+        
+05/07/2024 12:18:50 PM - DEBUG - [persona.py:56] - 
+            ID_Persona: None,
+            Nombre: Maria,
+            Apellido: Castrezano,
+            Email: mcastrezano@mail.com
+        
+05/07/2024 12:19:57 PM - DEBUG - [persona.py:53] - 
+            ID_Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail
+        
+05/07/2024 12:19:57 PM - DEBUG - [persona.py:56] - 
+            ID_Persona: None,
+            Nombre: Maria,
+            Apellido: Castrezano,
+            Email: mcastrezano@mail.com
+        
+05/07/2024 12:19:57 PM - DEBUG - [persona.py:59] - 
+            ID_Persona: 3,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+05/07/2024 12:35:20 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x71bb97be65c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 12:36:17 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x713f66dda700; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 12:36:17 PM - ERROR - [conexion.py:39] - Ocurrio una excepcion al obtener el cursor maximum recursion depth exceeded
+05/07/2024 12:38:59 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x7467b437a700; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 12:38:59 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x7467b437a700; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 12:51:54 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x7918db6f87c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 12:51:54 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x7918db6f87c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 12:51:54 PM - DEBUG - [persona_DAO.py:31] - 
+            ID_Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+05/07/2024 12:51:54 PM - DEBUG - [persona_DAO.py:31] - 
+            ID_Persona: 2,
+            Nombre: Ivon,
+            Apellido: Gutierrez,
+            Email: igutierrez@mail.com
+        
+05/07/2024 12:51:54 PM - DEBUG - [persona_DAO.py:31] - 
+            ID_Persona: 3,
+            Nombre: Juan,
+            Apellido: perez,
+            Email: jperez@mail.com
+        
+05/07/2024 12:51:54 PM - DEBUG - [persona_DAO.py:31] - 
+            ID_Persona: 4,
+            Nombre: Carlos 1,
+            Apellido: Lara 1,
+            Email: clara1@mail.com
+        
+05/07/2024 12:51:54 PM - DEBUG - [persona_DAO.py:31] - 
+            ID_Persona: 9,
+            Nombre: Maria,
+            Apellido: Exparza,
+            Email: mesparza@mail.com
+        
+05/07/2024 12:51:54 PM - DEBUG - [persona_DAO.py:31] - 
+            ID_Persona: 10,
+            Nombre: Maria 1,
+            Apellido: Exparza 1,
+            Email: mesparza 1@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x7818ec518680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:33] - Persona a insertada: 
+            ID_Persona: None,
+            Nombre: Pedro,
+            Apellido: Najera,
+            Email: pnajera@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:41] - Personas insertadas 1
+05/07/2024 02:44:42 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x7818ec518680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 2,
+            Nombre: Ivon,
+            Apellido: Gutierrez,
+            Email: igutierrez@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 3,
+            Nombre: Juan,
+            Apellido: perez,
+            Email: jperez@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 4,
+            Nombre: Carlos 1,
+            Apellido: Lara 1,
+            Email: clara1@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 9,
+            Nombre: Maria,
+            Apellido: Exparza,
+            Email: mesparza@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 10,
+            Nombre: Maria 1,
+            Apellido: Exparza 1,
+            Email: mesparza 1@mail.com
+        
+05/07/2024 02:44:42 PM - DEBUG - [persona_DAO.py:46] - 
+            ID_Persona: 11,
+            Nombre: Pedro,
+            Apellido: Najera,
+            Email: pnajera@mail.com
+        
+05/07/2024 02:46:10 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x72e681b1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:46:10 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x72e681b1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:46:10 PM - DEBUG - [persona_DAO.py:32] - Persona a insertada: 
+            ID_Persona: None,
+            Nombre: Pedro,
+            Apellido: Najera,
+            Email: pnajera@mail.com
+        
+05/07/2024 02:46:10 PM - DEBUG - [persona_DAO.py:40] - Personas insertadas 1
+05/07/2024 02:52:11 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x73ab40b1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:52:11 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x73ab40b1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:52:12 PM - DEBUG - [persona_DAO.py:42] - Persona actualizada: 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 02:52:12 PM - DEBUG - [persona_DAO.py:55] - Personas actualizadas 1
+05/07/2024 02:52:56 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x7f7eb0118680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:52:56 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x7f7eb0118680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:52:56 PM - DEBUG - [persona_DAO.py:43] - Persona actualizada: 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 02:52:56 PM - DEBUG - [persona_DAO.py:56] - Personas actualizadas 1
+05/07/2024 02:53:57 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x7be34cb1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:53:57 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x7be34cb1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:53:57 PM - DEBUG - [persona_DAO.py:43] - Persona actualizada: 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 02:53:57 PM - DEBUG - [persona_DAO.py:56] - Personas actualizadas 1
+05/07/2024 02:54:24 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x72fb90f1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:54:24 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x72fb90f1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:43] - Persona actualizada: 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:56] - Personas actualizadas 1
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 2,
+            Nombre: Ivon,
+            Apellido: Gutierrez,
+            Email: igutierrez@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 3,
+            Nombre: Juan,
+            Apellido: perez,
+            Email: jperez@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 4,
+            Nombre: Carlos 1,
+            Apellido: Lara 1,
+            Email: clara1@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 9,
+            Nombre: Maria,
+            Apellido: Exparza,
+            Email: mesparza@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 10,
+            Nombre: Maria 1,
+            Apellido: Exparza 1,
+            Email: mesparza 1@mail.com
+        
+05/07/2024 02:54:24 PM - DEBUG - [persona_DAO.py:61] - 
+            ID_Persona: 11,
+            Nombre: Pedro,
+            Apellido: Najera,
+            Email: pnajera@mail.com
+        
+05/07/2024 02:58:34 PM - DEBUG - [conexion.py:23] - Conexion exitosa: <connection object at 0x779073f1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:58:34 PM - DEBUG - [conexion.py:36] - Se abrio correctamente el cursor: <connection object at 0x779073f1c680; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:52] - Objeto Eliminado: 
+            ID_Persona: 11,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:69] - Personas eliminadas 1
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:74] - 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:74] - 
+            ID_Persona: 2,
+            Nombre: Ivon,
+            Apellido: Gutierrez,
+            Email: igutierrez@mail.com
+        
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:74] - 
+            ID_Persona: 3,
+            Nombre: Juan,
+            Apellido: perez,
+            Email: jperez@mail.com
+        
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:74] - 
+            ID_Persona: 4,
+            Nombre: Carlos 1,
+            Apellido: Lara 1,
+            Email: clara1@mail.com
+        
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:74] - 
+            ID_Persona: 9,
+            Nombre: Maria,
+            Apellido: Exparza,
+            Email: mesparza@mail.com
+        
+05/07/2024 02:58:34 PM - DEBUG - [persona_DAO.py:74] - 
+            ID_Persona: 10,
+            Nombre: Maria 1,
+            Apellido: Exparza 1,
+            Email: mesparza 1@mail.com
+        
+05/07/2024 03:15:28 PM - DEBUG - [conexion.py:29] - Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x750c88a615b0>
+05/07/2024 03:15:28 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x750c88bde700; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:15:28 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x750c88bdec00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:22:31 PM - DEBUG - [conexion.py:29] - Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x76bc3adac200>
+05/07/2024 03:22:31 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x76bc3b5d6980; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:22:31 PM - DEBUG - [conexion.py:45] - Regresamos la conexion al pool: <connection object at 0x76bc3b5d6980; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:22:31 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x76bc3b5d6980; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:22:31 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x76bc3b5d6e80; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:43:07 PM - DEBUG - [cursor_pool.py:9] - Inicio del metodo with __enter__
+05/07/2024 03:43:07 PM - DEBUG - [conexion.py:29] - Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x780c0b8686b0>
+05/07/2024 03:43:07 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x780c0b9e1300; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:43:07 PM - DEBUG - [cursor_pool.py:28] - dentro del bloque with
+05/07/2024 03:43:07 PM - DEBUG - [cursor_pool.py:30] - [(4, 'Carlos 1', 'Lara 1', 'clara1@mail.com'), (3, 'Juan', 'perez', 'jperez@mail.com'), (2, 'Ivon', 'Gutierrez', 'igutierrez@mail.com'), (9, 'Maria', 'Exparza', 'mesparza@mail.com'), (10, 'Maria 1', 'Exparza 1', 'mesparza 1@mail.com'), (1, 'Juan 1', 'Perez 1', 'jperez1@mail.com')]
+05/07/2024 03:43:07 PM - DEBUG - [cursor_pool.py:15] - Se ejecuta metodo __exit__
+05/07/2024 03:43:07 PM - DEBUG - [cursor_pool.py:21] - Commit de la transaccion
+05/07/2024 03:43:07 PM - DEBUG - [conexion.py:45] - Regresamos la conexion al pool: <connection object at 0x780c0b9e1300; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:50:09 PM - DEBUG - [cursor_pool.py:9] - Inicio del metodo with __enter__
+05/07/2024 03:50:09 PM - DEBUG - [conexion.py:29] - Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x77be94f056d0>
+05/07/2024 03:50:09 PM - DEBUG - [conexion.py:39] - Conexion obtenida del pool <connection object at 0x77be959fe840; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:50:09 PM - DEBUG - [cursor_pool.py:15] - Se ejecuta metodo __exit__
+05/07/2024 03:50:09 PM - DEBUG - [cursor_pool.py:21] - Commit de la transaccion
+05/07/2024 03:50:09 PM - DEBUG - [conexion.py:45] - Regresamos la conexion al pool: <connection object at 0x77be959fe840; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05/07/2024 03:50:09 PM - DEBUG - [persona_DAO.py:70] - 
+            ID_Persona: 1,
+            Nombre: Juan 1,
+            Apellido: Perez 1,
+            Email: jperez1@mail.com
+        
+05/07/2024 03:50:09 PM - DEBUG - [persona_DAO.py:70] - 
+            ID_Persona: 2,
+            Nombre: Ivon,
+            Apellido: Gutierrez,
+            Email: igutierrez@mail.com
+        
+05/07/2024 03:50:09 PM - DEBUG - [persona_DAO.py:70] - 
+            ID_Persona: 3,
+            Nombre: Juan,
+            Apellido: perez,
+            Email: jperez@mail.com
+        
+05/07/2024 03:50:09 PM - DEBUG - [persona_DAO.py:70] - 
+            ID_Persona: 4,
+            Nombre: Carlos 1,
+            Apellido: Lara 1,
+            Email: clara1@mail.com
+        
+05/07/2024 03:50:09 PM - DEBUG - [persona_DAO.py:70] - 
+            ID_Persona: 9,
+            Nombre: Maria,
+            Apellido: Exparza,
+            Email: mesparza@mail.com
+        
+05/07/2024 03:50:09 PM - DEBUG - [persona_DAO.py:70] - 
+            ID_Persona: 10,
+            Nombre: Maria 1,
+            Apellido: Exparza 1,
+            Email: mesparza 1@mail.com
+        
