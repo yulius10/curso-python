@@ -12,3 +12,12 @@ django-admin startproject nombreproyecto
 
 #ejecutar servidor
 python manage.py runserver
+
+#agregar una app
+python manage.py startapp nombreapp
+
+#muestra las migraciones pendientes de BD
+python manage.py showmigration
+
+#migrar cambios de BD
+python manage.py migrate
