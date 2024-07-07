@@ -21,3 +21,15 @@ python manage.py showmigration
 
 #migrar cambios de BD
 python manage.py migrate
+
+#cuando se realiza algun cambio en los models se tiene que ejecutar este comando
+#antes de hacer la migracion
+python manage.py makemigrations
+
+#para poder ver el codigo sql que genera python
+#se puede ver con este comando
+python manage.py sqlmigrate nombreapp nombrearchivomigrations
+
+
+#comando para crear un super user para entrar a la parte del admin
+python manage.py createsuperuser

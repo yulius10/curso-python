@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenido</title>
+    </head>
+    <body>
+        <h1>
+            Bienvenido al Sistema Administracion de Personas (SAP)
+        </h1>
+        <div>
+            Numero de personas: {{no_personas}}
+        </div>
+        <div>
+            <ul>
+                {% for persona in personas %}
+                <li>
+                    Persona: {{persona.id}} - {{persona.nombre}} - {{persona.apellido}} - {{persona.email}}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>
