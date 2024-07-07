@@ -12,12 +12,48 @@
             Numero de personas: {{no_personas}}
         </div>
         <div>
+            <a href="nueva_persona">
+                Agregar persona
+            </a>
+        </div>
+        <div>
             <ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Email</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
                 {% for persona in personas %}
-                <li>
-                    Persona: {{persona.id}} - {{persona.nombre}} - {{persona.apellido}} - {{persona.email}}
-                </li>
+                    <tbody>
+                        <tr>
+                            <td>{{persona.id}}</td>
+                            <td>{{persona.nombre}} - {{persona.apellido}}</td>
+                            <td>{{persona.email}}</td>
+                            <td>
+                                <a href="detalle_persona/{{persona.id}}">
+                                    Ver detalle
+                                </a>
+                            </td>
+                            <td>
+                                <a href="editar_persona/{{persona.id}}">
+                                    Editar persona
+                                </a>
+                            </td>
+                            <td>
+                                <a href="eliminar_persona/{{persona.id}}">
+                                    Eliminar persona
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
                 {% endfor %}
+                </table>
             </ul>
         </div>
     </body>

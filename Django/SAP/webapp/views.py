@@ -17,5 +17,6 @@ def bienvenido(request):
     }
     #return render(request,'bienvenido.html',mensajes)
     no_persona = Persona.objects.count()
-    personas = Persona.objects.all()
+    #personas = Persona.objects.all()
+    personas = Persona.objects.order_by('id')
     return render(request, 'bienvenido.html',{'no_personas':no_persona,'personas':personas})
